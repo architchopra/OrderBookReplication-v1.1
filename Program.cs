@@ -25,7 +25,7 @@ namespace WindowsFormsApp1
                 // Create an instance of the API
                 Form1 myApp = new Form1();
                 
-                string appSecretKey = "55317511-0d8b-0561-1227-17f27d74ca34:b95df911-04f5-1ec0-4ed6-47f225753bcd"; //Size - 25
+                string appSecretKey = ""; //Size - 25
                 
                 tt_net_sdk.ServiceEnvironment environment = tt_net_sdk.ServiceEnvironment.ProdSim;
                 tt_net_sdk.TTAPIOptions apiConfig = new tt_net_sdk.TTAPIOptions(environment, appSecretKey, 5000);
